@@ -25,3 +25,14 @@
     }
 }
 
+@media screen and (max-width: 876px){
+    .header{
+        padding: 20px 0;
+    }
+}
+
+@media print{
+    .header{
+        display: none;
+    }
+}
