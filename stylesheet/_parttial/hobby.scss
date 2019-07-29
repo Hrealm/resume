@@ -1,0 +1,13 @@
+.hobby{
+    padding: 15px;
+
+    .hobDetails{
+        margin: 10px 0;
+        list-style: circle;
+        line-height: 1.6;
+
+        .hobItem{
+            margin-left: 20px;
+        }
+    }
+}
