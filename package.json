@@ -21,6 +21,11 @@
   "homepage": "https://github.com/Hrealm/resume#readme",
   "dependencies": {
     "gulp": "^4.0.2",
+    "gulp-ejs": "^4.1.1",
     "gulp-live-server": "0.0.31"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
   }
 }

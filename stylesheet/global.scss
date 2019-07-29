@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    color: #484848;
+    background-color: #f9f9f9;
+}
+
+a{
+    color: #484848;
+    text-decoration: none;
+    &:hover{
+        color: #ff6a00;
+    }
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    overflow: auto;
+}
+
