@@ -1,0 +1,14 @@
+<div class="education">
+    <h2 class="title">
+        <%= __education %>
+    </h2>
+    <ul class="eduDetails">
+        <% education.forEach((item)=>{ %>
+            <li class="eduItem">
+                <span class="time"><%= item.time %></span>
+                <span class="school"><%= item.school %></span>
+                <span class="major"><%= item.major %></span>
+            </li>
+        <% }) %>
+    </ul>
+</div>

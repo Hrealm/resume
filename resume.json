@@ -10,5 +10,12 @@
         "website": "Hrealm.github.io",
         "github": "github.com/Hrealm",
         "email": "Hrealm@foxmail.com"
-    }
+    },
+    "education": [
+        {
+            "time": "2016 至今",
+            "school": "广东东软学院",
+            "major": "软件工程 本科"
+        }
+    ]
 }

@@ -1,0 +1,30 @@
+.education{
+    padding: 15px;
+
+    .eduDetails{
+        margin-top: 10px;
+        list-style: none;
+
+        .eduItem{
+            margin: 10px 0;
+            line-height: 1.6;
+
+            .time{
+                display: block;
+                color: #878787;
+                font-size: 14px;
+            }
+
+            .school{
+                display: inline-block;
+                margin-right: 10px;
+                font-size: 18px;
+            }
+
+            .major{
+                color: #878787;
+                font-size: 18px;
+            }
+        }
+    }
+}

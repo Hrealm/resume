@@ -1,0 +1,36 @@
+.profile{
+    padding: 15px;
+
+    .profileDetails{
+        margin-top: 10px;
+        list-style: none;
+
+        .profileItem{
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        .name{
+            font-size: 22px;
+        }
+
+        .fa{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            color: darken(#ff6a00,6%);
+            text-align: center;
+            
+            &::before{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media print{
+    .profile ,.profileDetails .name{
+        color: #ff6a00;
+    }
+}
