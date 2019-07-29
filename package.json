@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Hrealm/resume/issues"
   },
-  "homepage": "https://github.com/Hrealm/resume#readme"
+  "homepage": "https://github.com/Hrealm/resume#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-live-server": "0.0.31"
+  }
 }

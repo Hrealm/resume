@@ -1,0 +1,46 @@
+<% var icon = {
+    job: "wrench",
+    location: "map-marker",
+    phone: "phone",
+    website: "link",
+    github: "github",
+    email: "at"
+} %>
+
+<% var addAgreement = function(key,value){
+    switch(key){
+        case 'phone':
+            return 'tel:' + value;
+        case 'website':
+            return 'http://' + value;
+        case 'github':
+            return 'https://' + value;
+        case 'email':
+            return 'mailto:' + value;
+        default:
+            return ;
+    }
+} %>
+
+<div class="profile">
+    <h2 class="title">
+        <%= __profile %>
+    </h2>
+    <ul class="profileDetails">
+        <% for (var key in profile){ %>
+            <% var value = profile[key] %>
+            <% var href = addAgreement(key,value) %>
+            <li class="profileItem">
+                <% if(key !== 'name'){ %>
+                    <i class="fa fa-<%= icon[key] %>"></i>
+                <% } %>
+                <% if(href){ %>
+                    <% var target = /^http/.test(href) ? '_blank' : '_self' %>
+                    <a href="<%= href %>" class="<%= key %>" target="<%= target %>"><%= value %></a>
+                <% } else{ %>
+                    <span class="<%= key %>"><%= value %></span>
+                <% } %>
+            </li>
+        <% } %>
+    </ul>
+</div>
