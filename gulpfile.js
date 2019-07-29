@@ -35,11 +35,11 @@ gulp.task('watch',gulp.series('template','stylesheet',()=>{
     server.start();
 
     gulp.watch([
-        path.join(__dirname,'language','**'),
-        path.join(templatePath,'**','*'),
+        './language/*.json',
+        './template/**/*',
         path.join(resumePath)
     ],gulp.series('template'));
 
-    gulp.watch([path.join(stylesheetPath,'**','*')],gulp.series('stylesheet'));
+    gulp.watch('./stylesheet/**/*',gulp.series('stylesheet'));
 
 }));

@@ -24,3 +24,46 @@ a{
     overflow: auto;
 }
 
+.basic{
+    width: 35%;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+.professional{
+    margin-left: 35%;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-left: 2px solid #ddd;
+}
+
+@media screen and (max-width:876px){
+    .basic{
+        width: 100%;
+        float: none;
+    }
+    .professional{
+        margin-left: 0;
+        padding-left: 0;
+        border: 0;
+    }
+}
+
+.title {
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+  
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 70px;
+      position: absolute;
+      bottom: -2px;
+      border-bottom: 3px solid #2d2d2d;
+    }
+  }

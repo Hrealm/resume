@@ -1,0 +1,15 @@
+<div class="skills">
+    <h2 class="title"><%= __skills %></h2>
+    <ul class="skillsDetails">
+        <% skills.forEach((item)=>{ %>
+            <li class="skillsItem">
+                <h3 class="name"><%= item.name %></h3>
+                <ul class="summary">
+                    <% item.summary.forEach((item)=>{ %>
+                        <li class="summaryItem"><%= item %></li>
+                    <% }) %>
+                </ul>
+            </li>
+        <% }) %>
+    </ul>
+</div>

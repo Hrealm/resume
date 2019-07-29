@@ -22,5 +22,28 @@
         "逛 V2EX/掘金/知乎等类似网站",
         "阅读技术相关的书籍",
         "热爱折腾，了解新技术，关注新产品"
-    ]
+    ],
+    "skills": [{
+        "name": "HTML / CSS",
+        "summary": [
+            "能够使用语义化的 HTML 和模块化的 CSS 编写复杂的布局",
+            "使用过 Swig 与 Jade(Pug) 等前端模版，以及 Sass 预处理器",
+            "熟练使用 Gulp 进行自动化构建，使用过 Webpack"
+        ]
+    },{
+        "name": "JavaScript",
+        "summary": [
+            "熟悉原生 JavaScript，能够脱离 jQuery 等类库进行编码",
+            "熟悉 React 相关技术栈，阅读过 React 部分源码",
+            "阅读过 Underscore.js 源码，并提交 Pull request",
+            "使用过 React Native 编写简单的应用"
+        ]
+    },{
+        "name": "Other",
+        "summary": [
+            "有 Linux 使用经验， 日常使用 MacOS 进行开发",
+            "熟悉 Git 工作流，使用 Github + Git 进行版本控制",
+            "熟悉使用 Markdown 编写文档，能够阅读英文文档"
+        ]
+    }]
 }

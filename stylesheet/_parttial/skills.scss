@@ -1,0 +1,23 @@
+.skills{
+    padding: 15px;
+
+    .skillsDetails{
+        margin: 10px 0;
+        list-style: none;
+        line-height: 1.6;
+
+        .skillsItem{
+            margin-top: 10px;
+
+            .name{
+                color: darken(#ff6a00, 6%);
+            }
+
+            .summary{
+                .summaryItem{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
