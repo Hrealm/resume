@@ -1,0 +1,55 @@
+.project{
+    padding: 15px;
+
+    .proDetails{
+        margin-top: 10px;
+        list-style: none;
+
+        .proItem{
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        .proTitle{
+            display: inline-block;
+            margin-right: 5px;
+
+            .proLink{
+                font-size: 20px;
+                color: darken(#ff6a00, 6%);
+            }
+        }
+
+        .stack{
+            float: right;
+            font-size: 14px;
+            .stackTag{
+                color: #878787;
+                &::before{
+                    content: '#'
+                }
+            }
+        }
+
+        .summary{
+            .summaryItem{
+                margin-left: 20px;
+                line-height: 1.6;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 876px){
+    .project{
+        .proDetails{
+            .proTitle{
+                display: block;
+            }
+            .stack{
+                display: block;
+                float: none;
+            }
+        }
+    }
+}

@@ -53,13 +53,21 @@
     ],
     "experience": [
         {
-            "company": "广东东软学院",
-            "time": "2016 至今",
-            "job": "Web Developer",
-            "respible": [
-                "吃喝玩乐",
-                "自学",
-                "摸爬滚打"
+            "company": " ",
+            "time": " ",
+            "job": " ",
+            "respible": []
+        }
+    ],
+    "project": [
+        {
+            "name": "vueTrip",
+            "link": "https://github.com/Hrealm/vueTrip",
+            "stack": ["vue","vue-router","axios"],
+            "summary": [
+                "简洁偏平式风格的旅游APP，基于 Vue 相关技术栈开发",
+                "明确前后端数据分离，通过接口文档实现数据请求",
+                "自适应移动端布局，使用 Less 预处理器"
             ]
         }
     ]

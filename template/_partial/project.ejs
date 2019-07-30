@@ -1,0 +1,22 @@
+<div class="project">
+    <h2 class="title"><%= __project %></h2>
+    <ul class="proDetails">
+        <% project.forEach((item)=>{ %>
+            <li class="proItem">
+                <h3 class="proTitle">
+                    <a href="<%= item.link %>" class="proLink"><%= item.name %></a>
+                </h3>
+                <div class="stack">
+                    <% item.stack.forEach((item)=>{ %>
+                        <span class="stackTag"><%= item %></span>
+                    <% }) %>
+                </div>
+                <ul class="summary">
+                    <% item.summary.forEach((item)=>{ %>
+                        <li class="summaryItem"><%= item %></li>
+                    <% }) %>
+                </ul>
+            </li>
+        <% }) %>
+    </ul>
+</div>
