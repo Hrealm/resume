@@ -1,0 +1,36 @@
+.experience{
+    padding: 15px;
+
+    .expDetails{
+        list-style: none;
+
+        .expItem{
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+    }
+
+    .expTitle{
+        .expCompany{
+            margin-right: 5px;
+            display: inline-block;
+            color: darken(#ff6a00, 6%);
+            font-size: 20px;
+        }
+        .expTime{
+            font-size: 12px;
+            color: #878787;
+        }
+    }
+
+    .expContent{
+        .resDetails{
+            margin-top: 5px;
+            .resItem{
+                margin-left: 20px;
+            }
+        }
+    }
+
+
+}

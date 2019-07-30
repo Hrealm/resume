@@ -1,0 +1,21 @@
+<div class="experience">
+    <h2 class="title"><%= __experience %></h2>
+    <ul class="expDetails">
+        <% experience.forEach((item)=>{ %>
+            <li class="expItem">
+                <div class="expTitle">
+                    <h3 class="expCompany"><%= item.company %></h3>
+                    <time class="expTime"><%= item.time %></time>
+                </div>
+                <div class="expContent">
+                    <h4 class="job"><%= item.job %></h4>
+                    <ul class="resDetails">
+                        <% item.respible.forEach((item)=>{ %>
+                            <li class="resItem"><%= item %></li>
+                        <% }) %>
+                    </ul>
+                </div>
+            </li>
+        <% }) %>
+    </ul>
+</div>
