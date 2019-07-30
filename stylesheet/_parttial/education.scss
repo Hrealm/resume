@@ -19,11 +19,37 @@
                 display: inline-block;
                 margin-right: 10px;
                 font-size: 18px;
+                margin-bottom: 5px;
             }
 
             .major{
-                color: #878787;
+                // color: #878787;
                 font-size: 18px;
+                margin-bottom: 5px;
+            }
+
+            .gpa{
+                display: block;
+                font-size: 17px;
+            }
+
+            .prize{
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media print{
+    .education{
+        .eduDetails{
+            .eduItem{
+                .school{
+                    font-size: 16px;
+                }
+                .major{
+                    font-size: 16px;
+                }
             }
         }
     }

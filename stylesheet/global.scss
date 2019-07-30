@@ -67,3 +67,9 @@ a{
       border-bottom: 3px solid #2d2d2d;
     }
   }
+
+  @media print {
+      .title{
+          font-weight: 550;
+      }
+  }

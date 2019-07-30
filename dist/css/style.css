@@ -55,6 +55,10 @@ a {
     bottom: -2px;
     border-bottom: 3px solid #2d2d2d; }
 
+@media print {
+  .title {
+    font-weight: 550; } }
+
 .header {
   width: 100%;
   padding: 40px 0;
@@ -104,6 +108,10 @@ a {
         font-size: 20px; }
 
 @media print {
+  .profile .profileDetails a {
+    font-size: 16px; }
+  .profile .profileDetails .job {
+    font-size: 16px; }
   .profile .profileDetails .name {
     color: #ff6a00; } }
 
@@ -122,10 +130,22 @@ a {
       .education .eduDetails .eduItem .school {
         display: inline-block;
         margin-right: 10px;
-        font-size: 18px; }
+        font-size: 18px;
+        margin-bottom: 5px; }
       .education .eduDetails .eduItem .major {
-        color: #878787;
-        font-size: 18px; }
+        font-size: 18px;
+        margin-bottom: 5px; }
+      .education .eduDetails .eduItem .gpa {
+        display: block;
+        font-size: 17px; }
+      .education .eduDetails .eduItem .prize {
+        font-size: 17px; }
+
+@media print {
+  .education .eduDetails .eduItem .school {
+    font-size: 16px; }
+  .education .eduDetails .eduItem .major {
+    font-size: 16px; } }
 
 .hobby {
   padding: 15px; }

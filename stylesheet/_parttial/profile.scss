@@ -30,7 +30,18 @@
 }
 
 @media print{
-    .profile .profileDetails .name{
-        color: #ff6a00;
+    .profile{
+        .profileDetails{
+            a{
+                font-size: 16px;
+            }
+            .job{
+                font-size: 16px;
+            }
+            .name{
+                color: #ff6a00;
+            }
+        }
     }
+
 }
