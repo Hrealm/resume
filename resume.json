@@ -74,7 +74,7 @@
         },
         {
             "name": "resume",
-            "link": "https://github.com/Hrealm/resume",
+            "link": "https://hrealm.github.io/resume/dist",
             "stack": ["gulp","ejs","sass"],
             "summary": [
                 "使用 Gulp 编译构建，Ejs 模块化开发",

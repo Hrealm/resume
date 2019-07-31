@@ -32,6 +32,8 @@ a {
   border-left: 2px solid #ddd; }
 
 @media screen and (max-width: 876px) {
+  .container {
+    padding-bottom: 280px; }
   .basic {
     width: 100%;
     float: none; }
@@ -220,7 +222,7 @@ a {
     .project .proDetails .stack {
       float: right;
       font-size: 14px;
-      line-height: 36.8px; }
+      line-height: 37.5px; }
       .project .proDetails .stack .stackTag {
         color: #878787; }
         .project .proDetails .stack .stackTag::before {
@@ -268,7 +270,8 @@ a {
 
 @media screen and (max-width: 876px) {
   .qrCode {
-    display: none; } }
+    width: 100%;
+    margin: 0 auto; } }
 
 @media print {
   .qrCode .qrCodeImg {

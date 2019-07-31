@@ -39,6 +39,9 @@ a{
 }
 
 @media screen and (max-width:876px){
+    .container{
+        padding-bottom: 280px;
+    }
     .basic{
         width: 100%;
         float: none;
