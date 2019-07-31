@@ -220,3 +220,33 @@ a {
   .project .proDetails .stack {
     display: block;
     float: none; } }
+
+.qrCode {
+  position: absolute;
+  bottom: 25px;
+  width: 30%;
+  text-align: center; }
+  .qrCode .qrCodeImg {
+    width: 180px;
+    height: 180px; }
+  .qrCode .qrCodeTips {
+    margin-top: 5px;
+    color: #878787;
+    font-size: 14px; }
+  .qrCode .download {
+    display: inline-block;
+    width: 150px;
+    margin-top: 10px;
+    padding: 5px;
+    color: #fff;
+    background: #ff6a00;
+    border: 1px solid #ff6a00;
+    border-radius: 5px; }
+
+@media screen and (max-width: 876px) {
+  .qrCode {
+    display: none; } }
+
+@media print {
+  .qrCode .download {
+    display: none; } }

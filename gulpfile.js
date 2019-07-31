@@ -18,7 +18,7 @@ function getData(resumePath){
 }
 
 gulp.task('template',()=>{
-    const data = getData(resumePath);
+    let data = getData(resumePath);
     return gulp.src(path.join(templatePath,'index.html'))
         .pipe(ejs(data))
         .pipe(gulp.dest('dist'));
@@ -30,8 +30,12 @@ gulp.task('stylesheet',()=>{
         .pipe(gulp.dest('dist/css'));
 });
 
+gulp.task('assets',()=>{
+    return gulp.src('assets/**/*',{base: 'assets'})
+        .pipe(gulp.dest('dist'))
+})
 
-gulp.task('watch',gulp.series('template','stylesheet',()=>{
+gulp.task('watch',gulp.series('template','stylesheet','assets',()=>{
     server.start();
 
     gulp.watch([
@@ -41,5 +45,7 @@ gulp.task('watch',gulp.series('template','stylesheet',()=>{
     ],gulp.series('template'));
 
     gulp.watch('./stylesheet/**/*',gulp.series('stylesheet'));
+
+    gulp.watch('assets/**/*',gulp.series('assets'));
 
 }));
