@@ -260,7 +260,7 @@ a {
     font-size: 14px; }
   .qrCode .download {
     display: inline-block;
-    width: 150px;
+    width: 148px;
     margin-top: 10px;
     padding: 5px;
     color: #fff;
@@ -270,9 +270,11 @@ a {
 
 @media screen and (max-width: 876px) {
   .qrCode {
-    left: 0;
-    right: 0;
-    margin: 0 auto; } }
+    left: 50%;
+    margin-left: -80px; }
+    .qrCode .qrCodeTips {
+      width: 160px;
+      text-align: center; } }
 
 @media print {
   .qrCode .qrCodeImg {
