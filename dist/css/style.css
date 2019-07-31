@@ -33,8 +33,7 @@ a {
 
 @media screen and (max-width: 876px) {
   .container {
-    padding-bottom: 280px;
-    overflow-x: hidden; }
+    padding-bottom: 280px; }
   .basic {
     width: 100%;
     float: none; }
@@ -271,7 +270,8 @@ a {
 
 @media screen and (max-width: 876px) {
   .qrCode {
-    width: 100%;
+    left: 0;
+    right: 0;
     margin: 0 auto; } }
 
 @media print {

@@ -29,9 +29,8 @@
 
 @media screen and (max-width: 876px){
     .qrCode{
-        // display: none;
-        // bottom: -250px;
-        width: 100%;
+        left: 0;
+        right: 0;
         margin: 0 auto;
     }
 }
