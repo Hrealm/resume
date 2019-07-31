@@ -145,7 +145,11 @@ a {
   .education .eduDetails .eduItem .school {
     font-size: 16px; }
   .education .eduDetails .eduItem .major {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .education .eduDetails .eduItem .gpa {
+    font-size: 15px; }
+  .education .eduDetails .eduItem .prize {
+    font-size: 15px; } }
 
 .hobby {
   padding: 15px; }
@@ -155,6 +159,10 @@ a {
     line-height: 1.6; }
     .hobby .hobDetails .hobItem {
       margin-left: 20px; }
+
+@media print {
+  .hobby .hobItem {
+    font-size: 18px; } }
 
 .skills {
   padding: 15px; }
@@ -168,6 +176,12 @@ a {
         color: #e05d00; }
       .skills .skillsDetails .skillsItem .summary .summaryItem {
         margin-left: 20px; }
+
+@media print {
+  .skills .skillsDetails .skillsItem .anme {
+    font-size: 20px; }
+  .skills .skillsDetails .skillsItem .summary .summaryItem {
+    font-size: 18px; } }
 
 .experience {
   padding: 15px; }
@@ -205,7 +219,8 @@ a {
         color: #e05d00; }
     .project .proDetails .stack {
       float: right;
-      font-size: 14px; }
+      font-size: 14px;
+      line-height: 36.8px; }
       .project .proDetails .stack .stackTag {
         color: #878787; }
         .project .proDetails .stack .stackTag::before {
@@ -221,14 +236,22 @@ a {
     display: block;
     float: none; } }
 
+@media print {
+  .project .proDetails .proItem .proTitle .proLink {
+    font-size: 20px; }
+  .project .proDetails .proItem .stack {
+    font-size: 12px; }
+  .project .proDetails .proItem .summary .summaryItem {
+    font-size: 18px; } }
+
 .qrCode {
   position: absolute;
   bottom: 25px;
   width: 30%;
   text-align: center; }
   .qrCode .qrCodeImg {
-    width: 180px;
-    height: 180px; }
+    width: 160px;
+    height: 160px; }
   .qrCode .qrCodeTips {
     margin-top: 5px;
     color: #878787;
@@ -248,5 +271,10 @@ a {
     display: none; } }
 
 @media print {
+  .qrCode .qrCodeImg {
+    width: 150px;
+    height: 150px; }
+  .qrCode .qrCodeTips {
+    margin-top: 10px; }
   .qrCode .download {
     display: none; } }

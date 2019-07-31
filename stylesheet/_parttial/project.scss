@@ -23,6 +23,7 @@
         .stack{
             float: right;
             font-size: 14px;
+            line-height: 36.8px;
             .stackTag{
                 color: #878787;
                 &::before{
@@ -49,6 +50,26 @@
             .stack{
                 display: block;
                 float: none;
+            }
+        }
+    }
+}
+
+@media print{
+    .project{
+        .proDetails{
+            .proItem{
+                .proTitle .proLink{
+                    font-size: 20px;
+                }
+                .stack{
+                    font-size: 12px;
+                }
+                .summary{
+                    .summaryItem{
+                        font-size: 18px;
+                    }
+                }
             }
         }
     }

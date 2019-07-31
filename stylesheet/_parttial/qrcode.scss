@@ -5,8 +5,8 @@
     text-align: center;
 
     .qrCodeImg{
-        width: 180px;
-        height: 180px;
+        width: 160px;
+        height: 160px;
     }
 
     .qrCodeTips{
@@ -35,6 +35,13 @@
 
 @media print{
     .qrCode{
+        .qrCodeImg{
+            width: 150px;
+            height: 150px;
+        }
+        .qrCodeTips{
+            margin-top: 10px;
+        }
         .download{
             display: none;
         }

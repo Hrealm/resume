@@ -4,7 +4,7 @@
     "logo": "JUHUA HUANG",
     "job": "Web Developer",
     "profile": {
-        "name": "黄举华 / Hrealm",
+        "name": "黄举华 / hrealm",
         "job": "前端开发",
         "phone": "150-8961-9097",
         "website": "Hrealm.github.io",
@@ -21,9 +21,9 @@
         }
     ],
     "hobby": [
-        "逛 V2EX/掘金等类似网站",
-        "阅读技术相关的书籍",
-        "热爱折腾，关注新技术"
+        "喜欢 掘金 / V2EX / 等相关网站",
+        "热爱折腾，关注新技术，喜欢思考",
+        "偶尔阅读技术相关的书籍"
     ],
     "skills": [
         {
@@ -71,6 +71,22 @@
                 "明确前后端数据分离，通过接口文档实现数据请求",
                 "自适应移动端布局，使用 Less 预处理器"
             ]
+        },
+        {
+            "name": "resume",
+            "link": "https://github.com/Hrealm/resume",
+            "stack": ["gulp","ejs","sass"],
+            "summary": [
+                "使用 Gulp 编译构建，Ejs 模块化开发",
+                "独立分离页面数据，统一自定义",
+                "响应式布局，使用 Sass 预处理器"
+            ]
+        },
+        {
+            "name": "airplane",
+            "link": "https://github.com/Hrealm/airplane-game",
+            "stack": ["JavaScript"],
+            "summary": ["原生 JavaScript 开发，多重封装实现"]
         }
     ]
 }

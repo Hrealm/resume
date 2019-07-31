@@ -21,3 +21,18 @@
         }
     }
 }
+
+@media print{
+    .skills{
+        .skillsDetails{
+            .skillsItem{
+                .anme{
+                    font-size: 20px;
+                }
+                .summary .summaryItem{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
