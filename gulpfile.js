@@ -49,3 +49,5 @@ gulp.task('watch',gulp.series('template','stylesheet','assets',()=>{
     gulp.watch('assets/**/*',gulp.series('assets'));
 
 }));
+
+gulp.task('default',gulp.series('template','stylesheet','assets'));
