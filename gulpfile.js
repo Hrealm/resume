@@ -4,7 +4,7 @@ const path = require('path');
 const ejs = require('gulp-ejs');
 const sass = require('gulp-sass');
 const gls = require('gulp-live-server');
-const server = gls.static('dist',8899);
+const server = gls.static('dist',8090);
 
 const resumePath = path.join(__dirname,'resume.json');
 const templatePath = path.join(__dirname,'template');

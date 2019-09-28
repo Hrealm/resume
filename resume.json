@@ -17,7 +17,7 @@
             "school": "广东东软学院",
             "major": "软件工程  本科",
             "GPA": "GPA: 3.6/5",
-            "prize": "2017-2018 获得国家励志奖学金"
+            "prize": ""
         }
     ],
     "hobby": [
@@ -62,6 +62,16 @@
         }
     ],
     "project": [
+        {
+            "name": "freemusic",
+            "link": "https://github.com/Hrealm/freemusic",
+            "stack": ["vue","vue-router","axios","mongodb"],
+            "summary": [
+                "调用酷狗 API 实现的音乐网站，基于 vue 相关技术开发",
+                "使用代理解决跨域访问酷狗API问题",
+                "采用 node.js 搭建本地服务，数据库使用 MongoDB"
+            ]
+        },
         {
             "name": "vueTrip",
             "link": "https://github.com/Hrealm/vueTrip",
