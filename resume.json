@@ -56,10 +56,15 @@
     ],
     "experience": [
         {
-            "company": "",
-            "time": "2019-11~至今",
-            "job": " ",
-            "respible": []
+            "company": "广东中象集运科技有限公司",
+            "time": "2019-11 ~ 至今",
+            "job": "前端开发",
+            "respible": [
+                "使用 Vue + ElementUI 等相关技术栈开发内部物流管理系统",
+                "负责原生微信小程序开发与维护",
+                "负责与银行服务商对接开发小程序微信支付",
+                "负责官网开发，项目组件开发以及项目优化、维护、部署"
+            ]
         }
     ],
     "project": [
@@ -92,12 +97,6 @@
                 "独立分离页面数据，统一自定义",
                 "响应式布局，使用 Sass 预处理器"
             ]
-        },
-        {
-            "name": "airplane",
-            "link": "https://github.com/Hrealm/airplane-game",
-            "stack": ["JavaScript"],
-            "summary": ["原生 JavaScript 开发，多重封装实现"]
         }
     ]
 }
