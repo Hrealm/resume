@@ -222,7 +222,7 @@ a {
     .project .proDetails .stack {
       float: right;
       font-size: 14px;
-      line-height: 37.5px; }
+      line-height: 32.5px; }
       .project .proDetails .stack .stackTag {
         color: #878787; }
         .project .proDetails .stack .stackTag::before {
