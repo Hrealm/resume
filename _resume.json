@@ -1,0 +1,111 @@
+{
+    "language": "zh-cn",
+    "title": "黄举华 | 简历",
+    "logo": "JUHUA HUANG",
+    "job": "Web Developer",
+    "profile": {
+        "name": "黄举华 / hrealm",
+        "job": "前端开发",
+        "phone": "131-6096-0881",
+        "website": "Hrealm.github.io",
+        "github": "github.com/Hrealm",
+        "email": "Hrealm@foxmail.com"
+    },
+    "education": [
+        {
+            "time": "2016 至今",
+            "school": "广东东软学院",
+            "major": "软件工程  本科",
+            "GPA": "GPA: 3.6/5",
+            "prize": ""
+        }
+    ],
+    "hobby": [
+        "喜欢 掘金 / V2EX / 等相关网站",
+        "热爱折腾，关注新技术，喜欢思考",
+        "有阅读技术相关书籍的习惯"
+    ],
+    "skills": [
+        {
+            "name": "HTML / CSS",
+            "summary": [
+                "能够使用语义化的 HTML 和模块化的 CSS 编写复杂的布局",
+                "使用过 Ejs 与 Jade 等前端模版，以及 Sass / Less 预处理器",
+                "熟练使用 Gulp 进行自动化构建，使用过 Webpack"
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "summary": [
+                "熟悉原生 JavaScript，能够脱离 jQuery 等类库进行编码",
+                "熟悉 Vue 相关技术栈，熟悉前后端数据分离",
+                "使用过 Node.js 爬取数据并分析",
+                "使用过 React Native 编写简单的应用"
+            ]
+        },
+        {
+            "name": "Other",
+            "summary": [
+                "熟悉原生微信小程序开发，有相关开发经验",
+                "熟悉 MongoDB 相关操作",
+                "有 Linux 使用经验， 日常使用 VScode 进行开发",
+                "熟悉 Git 工作流，使用 Github + Git 进行版本控制",
+                "熟悉使用 Markdown 编写文档"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "广东中象集运科技有限公司",
+            "time": "2019-11 ~ 至今",
+            "job": "前端开发",
+            "respible": [
+                "使用 Vue + ElementUI 等相关技术栈开发内部物流管理系统",
+                "负责原生微信小程序开发与维护",
+                "负责与银行服务商对接开发小程序微信支付",
+                "负责官网开发，项目组件开发以及项目优化、维护、部署"
+            ]
+        }
+    ],
+    "project": [
+        {
+            "name": "客服调度物流系统",
+            "link": "",
+            "stack": ["vue","axios","webSocket"],
+            "summary": [
+                "项目描述：业务员可通过系统进行发货下单，接单，派车，签约，确认收货等业务流程操作；提供订单，运单，货源，客户，司机查询管理功能" 
+            ]
+
+        },
+        {
+            "name": "freemusic",
+            "link": "https://github.com/Hrealm/freemusic",
+            "stack": ["vue","vue-router","axios","mongodb"],
+            "summary": [
+                "调用酷狗 API 实现的音乐网站，基于 vue 相关技术开发",
+                "使用 Proxy 代理解决跨域访问酷狗API问题",
+                "采用 node.js 搭建本地服务，数据库使用 MongoDB"
+            ]
+        },
+        {
+            "name": "vueTrip",
+            "link": "https://github.com/Hrealm/vueTrip",
+            "stack": ["vue","vue-router","axios"],
+            "summary": [
+                "简洁偏平式风格的旅游 APP，基于 Vue 相关技术栈开发",
+                "明确前后端数据分离，通过接口文档实现数据请求",
+                "自适应移动端布局，使用 Less 预处理器"
+            ]
+        },
+        {
+            "name": "resume",
+            "link": "https://hrealm.github.io/resume/dist",
+            "stack": ["gulp","ejs","sass"],
+            "summary": [
+                "使用 Gulp 编译构建，Ejs 模块化开发",
+                "独立分离页面数据，统一自定义",
+                "响应式布局，使用 Sass 预处理器"
+            ]
+        }
+    ]
+}
